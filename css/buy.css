@@ -1,0 +1,22 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #a7fffd;
+}
+
+.destination-photo {
+    max-height: 100%;
+    width: 80%;
+    padding-left: 15%;
+    padding-top: 5%;
+    margin-bottom: 5%;
+}
+
+.brief-info {
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.row>div:first {
+    align-content: center;
+}

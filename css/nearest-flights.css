@@ -1,0 +1,17 @@
+body {
+    background-color: #a7fffd;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table img {
+    height: 20%;
+    width: auto;
+}
+
+.buy-cell {
+    text-align: center;
+}
+
+td {
+    vertical-align: middle !important;
+}

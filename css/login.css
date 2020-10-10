@@ -1,0 +1,15 @@
+html,
+body {
+    height: 100%;
+    background-color: #a7fffd;
+    overflow: hidden;
+}
+
+img {
+    width: 20%;
+}
+
+form {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: dimgray;
+}
