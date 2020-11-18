@@ -1,0 +1,14 @@
+body {
+    height: 100%;
+    background-color: #a7fffd;
+}
+
+.welcome-banner {
+    background-color: #074901;
+}
+
+.welcome-banner-font {
+    color: #65fd00;
+    font-weight: bolder;
+    font-family: monospace;
+}
