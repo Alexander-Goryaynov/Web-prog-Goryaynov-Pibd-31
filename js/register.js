@@ -39,6 +39,7 @@ function register() {
     });
 }
 
+
 function containsSpecSymbols(password) {
     for (let i = 0; i < specSymbols.length; i++) {
         if (password.indexOf(specSymbols[i]) > -1) {
@@ -47,6 +48,7 @@ function containsSpecSymbols(password) {
     }
     return false;
 }
+
 
 function containsNumericSymbols(password) {
     for (let i = 0; i < password.length; i++) {
