@@ -18,3 +18,15 @@ body {
 .row>div:first {
     align-content: center;
 }
+
+.disabled-place {
+    background-color: #4db8b6;
+}
+
+.disabled-place > input {
+    background-color: #65fd00;
+}
+
+.d-sm-flex > div {
+    margin-left: 25px;
+}
