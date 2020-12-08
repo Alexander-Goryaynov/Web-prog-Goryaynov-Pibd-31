@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/register.css" />
     <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="js/register.js"></script>
 </head>
 
-<body>
+<body onload="register()">
     <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
         <a class="navbar-brand" href="nearest-flights.html">
             <img src="images/brand.png" style="width:30px;">
@@ -24,7 +26,7 @@
                 <form>
                     <div class="text-center py-2">ФИО</div>
                     <div class="form-group">
-                        <input type="text" class="form-control" id="name" required>
+                        <input type="text" class="form-control" name="name" required>
                     </div>
                     <div class="text-center py-2">E-mail</div>
                     <div class="form-group">
@@ -34,8 +36,8 @@
                     <div class="form-group">
                         <input type="password" class="form-control" name="password" required>
                     </div>
-                    <div class="text-center pt-4">
-                        <a href="login.html" class="btn btn-primary">Зарегистрироваться</a>
+                    <div class="form-group text-center pt-4">
+                        <button type="submit" class="btn btn-primary">Зарегистрироваться</button>
                     </div>
                 </form>
             </div>
